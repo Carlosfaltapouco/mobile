@@ -29,8 +29,7 @@
   }
   
   main {
-    background: url("119979484_1173954582986034_8807219090881341614_n.jpg") no-repeat center center;
-    background-size: cover;
+  
     height: 92vh;
   }
   
@@ -85,6 +84,17 @@
   
   .nav-list.active {
     transform: translateX(0);
+  }
+
+  .videos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items:normal;
+    gap: 40px;
   }
   
   @keyframes navLinkFade {
